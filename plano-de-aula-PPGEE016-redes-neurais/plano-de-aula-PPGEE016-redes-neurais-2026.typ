@@ -28,7 +28,7 @@
   program-content: (
     (
       title: "Introdução de redes neurais",
-      meetings: 2,
+      meetings: 3,
       topics: [
         - História das redes neurais;
         - Relação entre redes neurais e o cérebro biológico;
@@ -39,7 +39,7 @@
     ),
     (
       title: "Redes neurais perceptron e perceptron multicamada",
-      meetings: 3,
+      meetings: 5,
       topics: [
         - Rede Perceptron;
         - Perceptron Multicamadas (MLP);
@@ -49,8 +49,8 @@
       ],
     ),
     (
-      title: "Avalição de desempenho de redes neurais",
-      meetings: 2,
+      title: "Avaliação de desempenho de redes neurais",
+      meetings: 4,
       topics: [
         - Métricas de avaliação: acurácia, precisão, revocação, F1-score;
         - Curva ROC;
@@ -62,7 +62,7 @@
     ),
     (
       title: "Aprendizado supervisionado",
-      meetings: 6,
+      meetings: 8,
       topics: [
         - Função de perda (Loss);
         - Treinamento (Fitting): Gradiente Descendente, Gradiente Descendente Estocástico, Adam e outros otimizadores;
@@ -76,7 +76,7 @@
     ),
     (
       title: "Redes convolucionais",
-      meetings: 4,
+      meetings: 6,
       topics: [
         - Invariância e equivariância;
         - Convoluções e Redes Neurais Convolucionais (CNNs);
@@ -87,29 +87,32 @@
       ],
     ),
     (
-      title: "Outras arquiteturas",
-      meetings: 4,
+      title: [$T_1$ – Seminário sobre outras arquiteturas],
+      meetings: 2,
+      isTopic: false,
       topics: [
-        - Redes recorrentes (RNNs);
-        - Long Short-Term Memory (LSTM);
-        - Redes Transformer;
-        - Aplicações de outras arquiteturas de redes neurais.
+        - Redes Neurais Recorrentes (RNNs);
+        - Mapas Auto-Organizáveis;
+        - Redes Neurais de Memória de Longo Prazo (LSTM);
+        - Restricted Boltzmann Machines (RBMs);
+        - Processamento de Linguagem Natural (NLP);
+        - Modelos de Atenção;
+        - Aprendizado por reforço.
       ],
     ),
     (
-      title: "$T_1$ - Seminário sobre outras arquiteturas",
-      meetings: 1,
+      title: [$T_2$ – Artigo (Apresentação + Artigo)],
+      meetings: 2,
       isTopic: false,
-    ),
-    (
-      title: "$T_2$ - Artigo (Apresentação + Artigo)",
-      meetings: 1,
-      isTopic: false,
+      topics: [
+        - Escrita de um artigo científico relacionado a redes neurais;
+        - Apresentação oral do artigo.
+      ],
     )
   ),
   assignments: [
-    As avaliações das disciplinas serão compostas por:
-    - $E$ - Exercícios práticos de implementação;
+    As avaliações da disciplina serão compostas por:
+    - $E$ - Exercícios (Teóricos e práticos de implementação);
     - $T_1$ - Seminário sobre outras arquiteturas;
     - $T_2$ - Artigo (Apresentação + Artigo).
 
@@ -122,18 +125,23 @@
     - Conceito A: Nota entre 10 e 8,01);
     - Conceito B: Nota entre 8 e 6,51);
     - Conceito C: Nota entre 6,5 e 5,01);
-    - Conceito D: Nota menor que 5.).
-
+    - Conceito D: Nota menor que 5).
     ],
+  metodology: [
+    As aulas serão ministradas por meio de uma combinação de exposições teóricas, exercícios teóricos,  exercícios práticos de implementação e projetos. O curso também incluirá seminários e apresentações de artigos científicos relacionados ao tema.
+  ],
+  resources: [
+    As aulas serão ministradas, em sua maioria, por meio de slides, com o auxílio do quadro branco ou de um aplicativo que simula um quadro branco (Squid). Ferramentas computacionais poderão ser utilizadas para complementar as aulas e avaliações. O material de apoio, como slides e listas de exercícios, será fornecido de forma digital na plataforma Google Classroom e pelo repositório da turma no Github.
+  ],
   main-bibliography: [
     + PRINCE, Simon J. D. *Understanding Deep Learning*. Cambridge: MIT Press, 2023.
     #v(2em)
   ],
   complementary-bibliography: [
-    + BROWNLEE, Jason. Basics of Linear Algebra for Machine Learning: Discover the Mathematical Language of Data in Python. [S. l.]: Machine Learning Mastery, 2018.
-    + MICHELUCCI, Umberto. Applied Deep Learning: A Case-Based Approach to Understanding Deep Neural Networks. Berkeley: Apress, 2018.
-    + ZINOVIEV, Dmitry. Data Science Essentials in Python: Collect - Organize - Explore - Predict - Value. Raleigh: Pragmatic Bookshelf, 2016.
-    + RUSSELL, Stuart J.; NORVIG, Peter. Inteligência artificial: uma abordagem moderna. 4. ed. Rio de Janeiro: LTC, 2022.
+    + BROWNLEE, Jason. *Basics of Linear Algebra for Machine Learning: Discover the Mathematical Language of Data in Python*. [S. l.]: Machine Learning Mastery, 2018.
+    + MICHELUCCI, Umberto. *Applied Deep Learning: A Case-Based Approach to Understanding Deep Neural Networks*. Berkeley: Apress, 2018.
+    + ZINOVIEV, Dmitry. *Data Science Essentials in Python: Collect - Organize - Explore - Predict - Value*. Raleigh: Pragmatic Bookshelf, 2016.
+    + RUSSELL, Stuart J.; NORVIG, Peter. *Inteligência artificial: uma abordagem moderna*. 4. ed. Rio de Janeiro: LTC, 2022.
   ],
 )
 
