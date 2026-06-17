@@ -4,11 +4,11 @@
 
 
 #show: ufac-theme.with(aspect-ratio: "16-9", progress-bar: false, config-info(
-  title: [Introdução aos sistemas de controle],
+  title: [Introdução às redes neurais],
   subtitle: [Parte I - Introdução],
   author: [Prof. Dr. Lucas Lima Rodrigues],
-  subject: [Processamento Digital de Sinais],
-  subject-code: [CCET387],
+  subject: [Redes Neurais],
+  subject-code: [PPGEE016],
 ))
 
 #title-slide()
@@ -76,7 +76,7 @@ Link do grupo: \
 == Objetivos do curso
 
 #fancy-box(title: [Objetivo principal])[
-  Introduzir os conceitos fundamentais de redes neurais com ênfase em aspectos teóricos e práticos, capacitando-os a aplicar esses conhecimentos em diversos problemas da engenharia e ciência.apacitar o aluno para desenvolver sistemas de processamento de sinais digitais e realizar sua implementação em dispositivos dedicados.
+  Introduzir os conceitos fundamentais de redes neurais com ênfase em aspectos teóricos e práticos, capacitando-os a aplicar esses conhecimentos em diversos problemas da engenharia e ciência.
 ]
 
 ---
@@ -122,7 +122,7 @@ Consiste em #unidades-tematicas.len() unidades temáticas:
 - Algoritmo de aprendizado do perceptron;
 - Backpropagation.
 
-=== Unidade III: Avalição de desempenho de redes neurais
+=== Unidade III: Avaliação de desempenho de redes neurais
 - Métricas de avaliação: acurácia, precisão, revocação, F1-score;
 - Curva ROC;
 - Curva precisão-revocação;
@@ -144,6 +144,7 @@ Consiste em #unidades-tematicas.len() unidades temáticas:
 - Introdução às redes neurais convolucionais (CNNs);
 - Camadas convolucionais e de pooling;
 - Arquiteturas populares de CNNs (LeNet, AlexNet, VGG, ResNet);
+- Transferência de aprendizado com CNNs;
 - Aplicações de CNNs em visão computacional e outras áreas.
 
 
@@ -176,7 +177,7 @@ Consiste em #unidades-tematicas.len() unidades temáticas:
     table.header([Assunto], [Encontros], [Aulas], [Carga horária]),
     [I – Introdução de redes neurais], [3], [6], [6h],
     [II – Redes neurais perceptron e perceptron multicamada], [5], [10], [10h],
-    [III – Avalição de desempenho de redes neurais], [4], [8], [8h],
+    [III – Avaliação de desempenho de redes neurais], [4], [8], [8h],
     [IV – Aprendizado supervisionado], [8], [16], [16h],
     [V – Redes neurais convolucionais], [6], [12], [12h],
     [*Carga horária total*], [*30*], [*60*], [*60h*],
@@ -223,10 +224,10 @@ $
 === Conceito final
 
 O conceito final da disciplina será atribuído de acordo com a relação abaixo:
-- Conceito A: Nota entre 10 e 8,01);
-- Conceito B: Nota entre 8 e 6,51);
-- Conceito C: Nota entre 6,5 e 5,01);
-- Conceito D: Nota menor que 5).
+- Conceito A: Nota entre 10 e 8,01;
+- Conceito B: Nota entre 8 e 6,51;
+- Conceito C: Nota entre 6,5 e 5,01;
+- Conceito D: Nota menor que 5;
 
 ---
 === Sobre os Exercícios
@@ -237,7 +238,7 @@ O conceito final da disciplina será atribuído de acordo com a relação abaixo
 ==== Exercícios teóricos
  - Devem ser entregues a mão digitalizados em pdf no Classroom.
  ==== Exercícios práticos
- - Devem ser entregue o código (Jupyter Notebook ou no Colab) e o relatório (Em pdf) no Classroom.
+ - Devem ser entregue o código (Jupyter Notebook ou no Colab) e o relatório (Em pdf) no Classroom ou Github.
 
 ---
 
